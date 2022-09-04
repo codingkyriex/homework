@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: xzs_lab
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/xzs_lab?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+
